@@ -1,0 +1,41 @@
+/* src/components/Translator.css */
+
+.translator-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .translator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+  }
+  
+  .language-selectors {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .language-selectors div {
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .translation-result {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
